@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>RadiantCSS</title>
+</head>
+<body>
+
+    <nav class="navbar-responsive">
+        <!-- <img src="./static/output-onlinepngtools.png"> -->
+        <div class="logo"><span class="logo-icon"><i class="far fa-gem"></i></span>Radiant<span class="text-secondary">CSS</span></div>
+        <label for="btn" class="icon">
+            <span class="fas fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li>
+                <label for="btn-1" class="show">Components<span class="fas fa-caret-down"></span></label>
+                <a href="#">Components</a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="#"><span class="fas fa-caret-right"></span>Pages</a></li>
+                    <li><a href="#"><span class="fas fa-caret-right"></span>Elements</a></li>
+                    <li><a href="#"><span class="fas fa-caret-right"></span>Icons</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Get in Touch</a></li>
+        </ul>
+    </nav>
+
+    <div class="sidebar sidebar-hide">
+        <!-- <div class="text">Side Menu</div> -->
+        <ul>
+            <li><a href="#">Get Started</a></li>
+            <li><a href="#">Components
+                <span class="fas fa-caret-down"></span>
+            </a>
+            <ul>
+                <li><a href="./Avatars.html">Avatar</a></li>
+                <li><a href="./Alerts.html">Alerts</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contribute</a></li>
+        </ul>
+        <span class="fas fa-bars sidebar-btn"></span>
+    </div>
+    <div class="grid-container">
+
+        <div class="main-content">
+            <div class="main-head">
+                <h1 class="main-heading">Cards</h1>
+                <p class='main-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ab commodi, iure, repellendus odio vero accusamus aperiam, nemo ex earum incidunt sequi ipsum quos. Vitae quasi saepe tenetur nesciunt temporibus!</p>
+            </div>
+
+            <div class="main-example">
+                <h2 class="ex-heading">Text Card</h2>
+                <div class="ex-example">
+                    <div class="text-card">
+                        <div class="card-detail">
+                            <h1 class="card-heading">This is Heading</h1>
+                            <p class="card-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In error veritatis, modi molestiae ipsum omnis quia eligendi maiores perspiciatis dolore aliquam quibusdam dolorum nostrum consequuntur quaerat hic explicabo corrupti facilis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="main-example">
+                <h2 class="ex-heading">Image Card</h2>
+                <div class="ex-example">
+                    <div class="image-card">
+                        <img class="card-image" src="./static/card-img.jpg">
+                        <div class="card-detail">
+                            <h1 class="card-title">Gucci T-Shirt</h1>
+                            <p class="card-price">Rs.2000/-</p>
+                            <button class="card-button">Buy Now</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="main-example">
+                <h2 class="ex-heading">Card with Badge</h2>
+                <div class="ex-example">
+                    <div class="image-card">
+                        <img class="card-image" src="./static/card-img.jpg">
+                        <p class="card-badge">50% Off</p>
+                        <div class="card-detail">
+                            <h1 class="card-title">Gucci T-Shirt</h1>
+                            <p class="card-price">Rs.2000/-</p>
+                            <button class="card-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="main-example">
+                <h2 class="ex-heading">Card with Dismiss</h2>
+                <div class="ex-example">
+                    <div class="image-card">
+                        <img class="card-image" src="./static/card-img.jpg">
+                        <p class="close-badge">X</p>
+                        <div class="card-detail">
+                            <h1 class="card-title">Gucci T-Shirt</h1>
+                            <p class="card-price">Rs.2000/-</p>
+                            <button class="card-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="main-example">
+                <h2 class="ex-heading">Horizontal Image Card</h2>
+                <div class="ex-example">
+                    <div class="image-card card-horizontal">
+                        <img class="card-image" src="./static/card-img.jpg">
+                        <div class="card-detail">
+                            <h1 class="card-title">Gucci T-Shirt</h1>
+                            <p class="card-price">Rs.2000/-</p>
+                            <button class="card-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="main-example">
+                <h2 class="ex-heading">Card with Shadow</h2>
+                <div class="ex-example">
+                    <div class="image-card card-shadow">
+                        <img class="card-image" src="./static/card-img.jpg">
+                        <div class="card-detail">
+                            <h1 class="card-title">Gucci T-Shirt</h1>
+                            <p class="card-price">Rs.2000/-</p>
+                            <button class="card-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- <div class="main-example">
+                <h2 class="ex-heading">Card with Text Overlay</h2>
+                <div class="ex-example">
+                    <div class="card-overlay">
+                        <img class="card-overlay-image" src="./static/card-img.jpg">
+                        <div class="card-overlay-text">
+                            <p class="overlay-tp">Hello</p>
+                            <p class="overlay-ceter">Hello</p>
+                            <p class="overlay-ottom">Hello</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-circle%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-red%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon-img%2522%2520src%253D%2522.%252Fstatic%252Fcart-icon.svg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-rounded%2520badge-green%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr> -->
+        </div>
+        <footer>
+            <h1>Connect with Us</h1>
+            <ul class="footer-links">
+                <li><a><span class="fab fa-instagram"></span>Instagram</a></li>
+                <li><a><span class="fab fa-linkedin"></span>Linkedin</a></li>
+                <li><a><span class="fab fa-twitter"></span>Twitter</a></li>
+                <li><a><span class="fas fa-globe"></span>Website</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/116453b1e1.js" crossorigin="anonymous"></script>
+</body>
+</html>
