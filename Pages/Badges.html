@@ -9,45 +9,48 @@
 </head>
 <body>
 
-    <nav class="navbar-responsive">
-        <!-- <img src="./static/output-onlinepngtools.png"> -->
-        <div class="logo"><span class="logo-icon"><i class="far fa-gem"></i></span>Radiant<span class="text-secondary">CSS</span></div>
-        <label for="btn" class="icon">
-            <span class="fas fa-bars"></span>
-        </label>
-        <input type="checkbox" id="btn">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li>
-                <label for="btn-1" class="show">Components<span class="fas fa-caret-down"></span></label>
-                <a href="#">Components</a>
-                <input type="checkbox" id="btn-1">
-                <ul>
-                    <li><a href="#"><span class="fas fa-caret-right"></span>Pages</a></li>
-                    <li><a href="#"><span class="fas fa-caret-right"></span>Elements</a></li>
-                    <li><a href="#"><span class="fas fa-caret-right"></span>Icons</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Get in Touch</a></li>
-        </ul>
-    </nav>
-
     <div class="sidebar sidebar-hide">
         <!-- <div class="text">Side Menu</div> -->
         <ul>
-            <li><a href="#">Get Started</a></li>
-            <li><a href="#">Components
+            <li><a href="../getStarted.html">Get Started</a></li>
+            <li><a class="active" href="#">Components
                 <span class="fas fa-caret-down"></span>
-            </a>
-            <ul>
-                <li><a href="./Avatars.html">Avatar</a></li>
-                <li><a href="./Alerts.html">Alerts</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Contribute</a></li>
+                </a>
+                <ul>
+                    <li><a href="./Avatars.html"><i class="fas fa-angle-right"></i> Avatar</a></li>
+                    <li><a href="./Alerts.html"><i class="fas fa-angle-right"></i> Alerts</a></li>
+                    <li><a class="active" href="./Badges.html"><i class="fas fa-angle-right"></i> Badges</a></li>
+                    <li><a href="./Buttons.html"><i class="fas fa-angle-right"></i> Buttons</a></li>
+                    <li><a href="./Card.html"><i class="fas fa-angle-right"></i> Cards</a></li>
+                    <li><a href="./Image.html"><i class="fas fa-angle-right"></i> Images</a></li>
+                    <li><a href="./Inputs.html"><i class="fas fa-angle-right"></i> Inputs</a></li>
+                    <li><a href="./Lists.html"><i class="fas fa-angle-right"></i> Lists</a></li>
+                    <li><a href="./Navigation.html"><i class="fas fa-angle-right"></i> Navigation Bar</a></li>
+                    <li><a href="./Modal.html"><i class="fas fa-angle-right"></i> Modal</a></li>
+                </ul>
+            </li>
+            <li><a href="../utilities.html">Utilities</a></li>
+            <li><a href="../contribute.html">Contribute</a></li>
         </ul>
         <span class="fas fa-bars sidebar-btn"></span>
     </div>
+    <!-- <div class="grid-container"> -->
+        <nav class="navbar-responsive">
+            <!-- <img src="./static/output-onlinepngtools.png"> -->
+            <div class="logo"><span class="logo-icon"><i class="far fa-gem"></i></span>Radiant<span class="text-secondary">CSS</span></div>
+            <label for="btn" class="icon">
+                <span class="fas fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li>
+                    <a href="../components.html">Components</a>
+                </li>
+                <li><a href="../getInTouch.html">Get in Touch</a></li>
+            </ul>
+        </nav>
+
     <div class="grid-container">
 
         <div class="main-content">
@@ -60,19 +63,19 @@
                 <h2 class="ex-heading">Badge on Icons</h2>
                 <div class="ex-example-row">
                     <div class="badge-container">
-                        <img class="badge-icon-img" src="./static/cart-icon.svg">
+                        <img class="badge-icon-img" src="../static/cart-icon.svg">
                         <div class="badge-icon-circle badge-red">5</div>
                     </div>
                     <div class="badge-container">
-                        <img class="badge-icon-img" src="./static/cart-icon.svg">
+                        <img class="badge-icon-img" src="../static/cart-icon.svg">
                         <div class="badge-icon-circle badge-green">5</div>
                     </div>
                     <div class="badge-container">
-                        <img class="badge-icon-img" src="./static/cart-icon.svg">
+                        <img class="badge-icon-img" src="../static/cart-icon.svg">
                         <div class="badge-icon-rounded badge-red">5</div>
                     </div>
                     <div class="badge-container">
-                        <img class="badge-icon-img" src="./static/cart-icon.svg">
+                        <img class="badge-icon-img" src="../static/cart-icon.svg">
                         <div class="badge-icon-rounded badge-green">5</div>
                     </div>
                 </div>
@@ -92,19 +95,19 @@
                 <h2 class="ex-heading">Badge on Avatars</h2>
                 <div class="ex-example-row">
                     <div class="badge-container">
-                        <img class="badge-avatar-img avatar-sm avatar-rounded" src="./static/avatar-img.png">
+                        <img class="badge-avatar-img avatar-sm avatar-rounded" src="../static/avatar-img.png">
                         <div class="badge-avatar-circle badge-red"></div>
                     </div>
                     <div class="badge-container">
-                        <img class="badge-avatar-img avatar-sm avatar-rounded" src="./static/avatar-img.png">
+                        <img class="badge-avatar-img avatar-sm avatar-rounded" src="../static/avatar-img.png">
                         <div class="badge-avatar-circle badge-green"></div>
                     </div>
                     <div class="badge-container">
-                        <img class="badge-avatar-img avatar-sm avatar-rounded" src="./static/avatar-img.png">
+                        <img class="badge-avatar-img avatar-sm avatar-rounded" src="../static/avatar-img.png">
                         <div class="badge-avatar-rounded badge-red"></div>
                     </div>
                     <div class="badge-container">
-                        <img class="badge-avatar-img avatar-sm avatar-rounded" src="./static/avatar-img.png">
+                        <img class="badge-avatar-img avatar-sm avatar-rounded" src="../static/avatar-img.png">
                         <div class="badge-avatar-rounded badge-green"></div>
                     </div>
                 </div>

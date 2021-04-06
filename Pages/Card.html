@@ -8,46 +8,47 @@
     <title>RadiantCSS</title>
 </head>
 <body>
-
-    <nav class="navbar-responsive">
-        <!-- <img src="./static/output-onlinepngtools.png"> -->
-        <div class="logo"><span class="logo-icon"><i class="far fa-gem"></i></span>Radiant<span class="text-secondary">CSS</span></div>
-        <label for="btn" class="icon">
-            <span class="fas fa-bars"></span>
-        </label>
-        <input type="checkbox" id="btn">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li>
-                <label for="btn-1" class="show">Components<span class="fas fa-caret-down"></span></label>
-                <a href="#">Components</a>
-                <input type="checkbox" id="btn-1">
-                <ul>
-                    <li><a href="#"><span class="fas fa-caret-right"></span>Pages</a></li>
-                    <li><a href="#"><span class="fas fa-caret-right"></span>Elements</a></li>
-                    <li><a href="#"><span class="fas fa-caret-right"></span>Icons</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Get in Touch</a></li>
-        </ul>
-    </nav>
-
     <div class="sidebar sidebar-hide">
         <!-- <div class="text">Side Menu</div> -->
         <ul>
-            <li><a href="#">Get Started</a></li>
-            <li><a href="#">Components
+            <li><a href="../getStarted.html">Get Started</a></li>
+            <li><a class="active" href="#">Components
                 <span class="fas fa-caret-down"></span>
-            </a>
-            <ul>
-                <li><a href="./Avatars.html">Avatar</a></li>
-                <li><a href="./Alerts.html">Alerts</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Contribute</a></li>
+                </a>
+                <ul>
+                    <li><a href="./Avatars.html"><i class="fas fa-angle-right"></i> Avatar</a></li>
+                    <li><a href="./Alerts.html"><i class="fas fa-angle-right"></i> Alerts</a></li>
+                    <li><a href="./Badges.html"><i class="fas fa-angle-right"></i> Badges</a></li>
+                    <li><a href="./Buttons.html"><i class="fas fa-angle-right"></i> Buttons</a></li>
+                    <li><a class="active" href="./Card.html"><i class="fas fa-angle-right"></i> Cards</a></li>
+                    <li><a href="./Image.html"><i class="fas fa-angle-right"></i> Images</a></li>
+                    <li><a href="./Inputs.html"><i class="fas fa-angle-right"></i> Inputs</a></li>
+                    <li><a href="./Lists.html"><i class="fas fa-angle-right"></i> Lists</a></li>
+                    <li><a href="./Navigation.html"><i class="fas fa-angle-right"></i> Navigation Bar</a></li>
+                    <li><a href="./Modal.html"><i class="fas fa-angle-right"></i> Modal</a></li>
+                </ul>
+            </li>
+            <li><a href="../utilities.html">Utilities</a></li>
+            <li><a href="../contribute.html">Contribute</a></li>
         </ul>
         <span class="fas fa-bars sidebar-btn"></span>
     </div>
+    <!-- <div class="grid-container"> -->
+        <nav class="navbar-responsive">
+            <!-- <img src="./static/output-onlinepngtools.png"> -->
+            <div class="logo"><span class="logo-icon"><i class="far fa-gem"></i></span>Radiant<span class="text-secondary">CSS</span></div>
+            <label for="btn" class="icon">
+                <span class="fas fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li>
+                    <a href="../components.html">Components</a>
+                </li>
+                <li><a href="../getInTouch.html">Get in Touch</a></li>
+            </ul>
+        </nav>
     <div class="grid-container">
 
         <div class="main-content">
@@ -82,7 +83,7 @@
                 <h2 class="ex-heading">Image Card</h2>
                 <div class="ex-example">
                     <div class="image-card">
-                        <img class="card-image" src="./static/card-img.jpg">
+                        <img class="card-image" src="../static/card-img.jpg">
                         <div class="card-detail">
                             <h1 class="card-title">Gucci T-Shirt</h1>
                             <p class="card-price">Rs.2000/-</p>
@@ -107,7 +108,7 @@
                 <h2 class="ex-heading">Card with Badge</h2>
                 <div class="ex-example">
                     <div class="image-card">
-                        <img class="card-image" src="./static/card-img.jpg">
+                        <img class="card-image" src="../static/card-img.jpg">
                         <p class="card-badge">50% Off</p>
                         <div class="card-detail">
                             <h1 class="card-title">Gucci T-Shirt</h1>
@@ -132,7 +133,7 @@
                 <h2 class="ex-heading">Card with Dismiss</h2>
                 <div class="ex-example">
                     <div class="image-card">
-                        <img class="card-image" src="./static/card-img.jpg">
+                        <img class="card-image" src="../static/card-img.jpg">
                         <p class="close-badge">X</p>
                         <div class="card-detail">
                             <h1 class="card-title">Gucci T-Shirt</h1>
@@ -157,7 +158,7 @@
                 <h2 class="ex-heading">Horizontal Image Card</h2>
                 <div class="ex-example">
                     <div class="image-card card-horizontal">
-                        <img class="card-image" src="./static/card-img.jpg">
+                        <img class="card-image" src="../static/card-img.jpg">
                         <div class="card-detail">
                             <h1 class="card-title">Gucci T-Shirt</h1>
                             <p class="card-price">Rs.2000/-</p>
@@ -181,7 +182,7 @@
                 <h2 class="ex-heading">Card with Shadow</h2>
                 <div class="ex-example">
                     <div class="image-card card-shadow">
-                        <img class="card-image" src="./static/card-img.jpg">
+                        <img class="card-image" src="../static/card-img.jpg">
                         <div class="card-detail">
                             <h1 class="card-title">Gucci T-Shirt</h1>
                             <p class="card-price">Rs.2000/-</p>

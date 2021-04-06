@@ -802,7 +802,17 @@ nav.navbar-responsive ul li a:hover {
   /* border-radius: 0.8rem; */
 }
 
+nav.navbar-responsive ul li a.active {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
 nav.navbar-responsive ul ul li a:hover {
+  color: var(--secondary-color);
+  box-shadow: none;
+}
+
+nav.navbar-responsive ul ul li a.active {
   color: var(--secondary-color);
   box-shadow: none;
 }
@@ -1179,6 +1189,13 @@ input[type='checkbox'] {
   border-left-color: var(--secondary-color);
 }
 
+.sidebar > ul li a.active {
+  color: var(--secondary-color);
+  /* background-color:  */
+  /* border-left: 3px solid var(--secondary-color); */
+  /* border-left-color: var(--secondary-color); */
+}
+
 .sidebar ul li ul {
   opacity: 0;
   visibility: hidden;
@@ -1284,11 +1301,12 @@ body {
   text-align: center;
 }
 
-.article-btn button {
+.article-btn a {
   margin: 1rem;
   color: white;
   border: none;
   padding-right: 1.4rem;
+  text-decoration: none;
 }
 
 /* Footer */
