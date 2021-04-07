@@ -726,7 +726,7 @@
 
 /* --------------------------------------------- */
 
-/* Navigation */
+/* Navbar */
 nav.navbar-responsive {
   background-color: var(--primary-color);
   position: fixed;
@@ -1206,6 +1206,7 @@ input[type='checkbox'] {
   opacity: 1;
   visibility: visible;
   position: static;
+  transition: 1s;
 }
 
 .sidebar ul li ul li {
@@ -1301,8 +1302,16 @@ body {
   text-align: center;
 }
 
+.article-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .article-btn a {
   margin: 1rem;
+  /* margin-top: 50rem; */
   color: white;
   border: none;
   padding-right: 1.4rem;
@@ -1348,6 +1357,8 @@ footer > ul > li {
 
 footer ul li a {
   margin: 2rem;
+  text-decoration: none;
+  color: white;
   /* width: 100%; */
 }
 
