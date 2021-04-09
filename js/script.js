@@ -1,12 +1,19 @@
 const modalBtn = document.querySelector('.modal-btn');
 const modal = document.querySelector('.modal-bg');
 const modalClose = document.querySelector('.modal-close');
+const componentBtn = document.querySelector('.component-btn');
 // const iframe = document.querySelector('iframe');
+const sidesub = document.querySelector('.sidebar-sub');
 
 const sidebarBtn = document.querySelector('.sidebar-btn');
-const sidebar = document.querySelector('.sidebar')
+const sidebar = document.querySelector('.sidebar');
 
 // iframe.width = '200px';
+
+componentBtn.addEventListener('click', function() {
+    sidesub.classList.toggle('sidebar-sub-hide');
+    sidesub.classList.toggle('sidebar-sub-show');
+})
 
 sidebarBtn.addEventListener('click', function() {
     // console.log(sidebar);

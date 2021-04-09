@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>RadiantCSS</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../static/diamond.png">
+    <title>RadiantCSS | Utilities</title>
 </head>
+
 <body>
+
     <div class="sidebar sidebar-hide">
         <!-- <div class="text">Side Menu</div> -->
         <ul>
-            <li><a href="./getStarted.html">Get Started</a></li>
-            <li><a href="#">Components
-                <span class="fas fa-caret-down"></span>
+            <li class="component-btn"><a href="#">Components
+                    <span class="fas fa-caret-down"></span>
                 </a>
-                <ul>
+                <ul class="sidebar-sub sidebar-sub-hide">
                     <li><a href="./Pages/Avatars.html"><i class="fas fa-angle-right"></i> Avatar</a></li>
                     <li><a href="./Pages/Alerts.html"><i class="fas fa-angle-right"></i> Alerts</a></li>
                     <li><a href="./Pages/Badges.html"><i class="fas fa-angle-right"></i> Badges</a></li>
@@ -28,45 +31,104 @@
                     <li><a href="./Pages/Modal.html"><i class="fas fa-angle-right"></i> Modal</a></li>
                 </ul>
             </li>
-            <li><a class="active" href="./utilities.html">Utilities</a></li>
-            <li><a href="./contribute.html">Contribute</a></li>
+            <li><a class="active" href="../utilities.html">Utilities</a></li>
+            <li><a href="../contribute.html">Contribute</a></li>
         </ul>
         <span class="fas fa-bars sidebar-btn"></span>
     </div>
     <!-- <div class="grid-container"> -->
-        <nav class="navbar-responsive">
-            <!-- <img src="./static/output-onlinepngtools.png"> -->
-            <div class="logo"><span class="logo-icon"><i class="far fa-gem"></i></span>Radiant<span class="text-secondary">CSS</span></div>
-            <label for="btn" class="icon">
-                <span class="fas fa-bars"></span>
-            </label>
-            <input type="checkbox" id="btn">
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li>
-                    <a href="./components.html">Components</a>
-                </li>
-                <li><a href="./getInTouch.html">Get in Touch</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar-responsive">
+        <!-- <img src="./static/output-onlinepngtools.png"> -->
+        <div class="logo"><span class="logo-icon"><i class="far fa-gem"></i></span>Radiant<span
+                class="text-secondary">CSS</span></div>
+        <label for="btn" class="icon">
+            <span class="fas fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li>
+                <a href="../getStarted.html">Get Started</a>
+            </li>
+            <li><a href="../getInTouch.html">Get in Touch</a></li>
+        </ul>
+    </nav>
 
-        
-        <div class="grid-container">
-            <h1>This is Utilities</h1>
+    <div class="grid-container">
+
+        <div class="main-content">
+            <div class="main-head">
+                <h1 class="main-heading">Utilities</h1>
+                <p class='main-description'>Utility classes are CSS class names that serve one particular purpose, and
+                    are named as such. Typically a class like . bg-blue would give you background-color: blue , for
+                    example.</p>
             </div>
 
-            <footer>
-                <h1>Connect with Us</h1>
-                <ul class="footer-links">
-                    <li><a target="_blank" href="https://www.instagram.com/mrchepedev/"><span class="fab fa-instagram"></span>Instagram</a></li>
-                    <li><a href="https://www.linkedin.com/in/bhupinder-singh-359867165/" target="_blank"><span class="fab fa-linkedin"></span>Linkedin</a></li>
-                    <li><a href="https://twitter.com/chepedev/" target="_blank"><span class="fab fa-twitter"></span>Twitter</a></li>
-                    <li><a href="https://bhupindersingh.netlify.app/" target="_blank"><span class="fas fa-globe"></span>Website</a></li>
-                </ul>
-            </footer>
+            <div class="main-example">
+                <h2 class="ex-heading">Text Colors</h2>
+                <div class="ex-example">
+                    <h1 class="text-primary">This is Primary Text.</h1>
+                    <h1 class="text-secondary">This is Secondary Text.</h1>
+                    <h1 class="text-success">This is Success Text.</h1>
+                    <h1 class="text-danger">This is Danger Text.</h1>
+                    <h1 class="text-warning">This is Warning Text.</h1>
+                    <h1 class="text-info">This is Info Text.</h1>
+                    <h1 class="text-dark">This is Dark Text.</h1>
+                    <h1 class="text-light">This is Light Text.</h1>
+                </div>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=panda-syntax&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Ch1%2520class%253D%2522text-primary%2522%253EThis%2520is%2520Primary%2520Text.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522text-secondary%2522%253EThis%2520is%2520Secondary%2520Text.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522text-success%2522%253EThis%2520is%2520Success%2520Text.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522text-danger%2522%253EThis%2520is%2520Danger%2520Text.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522text-warning%2522%253EThis%2520is%2520Warning%2520Text.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522text-info%2522%253EThis%2520is%2520Info%2520Text.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522text-dark%2522%253EThis%2520is%2520Dark%2520Text.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522text-light%2522%253EThis%2520is%2520Light%2520Text.%253C%252Fh1%253E"
+                            style="height: 330px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="main-example">
+                <h2 class="ex-heading">Background Color</h2>
+                <div class="ex-example">
+                    <h1 class="bg-primary">This is Primary Color.</h1>
+                    <h1 class="bg-secondary">This is Secondary Color.</h1>
+                    <h1 class="bg-success">This is Success Color.</h1>
+                    <h1 class="bg-danger">This is Danger Color.</h1>
+                    <h1 class="bg-warning">This is Warning Color.</h1>
+                    <h1 class="bg-info">This is Info Color.</h1>
+                    <h1 class="bg-dark">This is Dark Color.</h1>
+                    <h1 class="bg-light">This is Light Color.</h1>
+                </div>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=panda-syntax&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Ch1%2520class%253D%2522bg-primary%2522%253EThis%2520is%2520Primary%2520Color.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522bg-secondary%2522%253EThis%2520is%2520Secondary%2520Color.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522bg-success%2522%253EThis%2520is%2520Success%2520Color.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522bg-danger%2522%253EThis%2520is%2520Danger%2520Color.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522bg-warning%2522%253EThis%2520is%2520Warning%2520Color.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522bg-info%2522%253EThis%2520is%2520Info%2520Color.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522bg-dark%2522%253EThis%2520is%2520Dark%2520Color.%253C%252Fh1%253E%250A%253Ch1%2520class%253D%2522bg-light%2522%253EThis%2520is%2520Light%2520Color.%253C%252Fh1%253E"
+                        style="height: 330px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
         </div>
-    <!-- </div> -->
-    <script src="./js/script.js"></script>
+        <footer>
+            <h1>Connect with Us</h1>
+            <ul class="footer-links">
+                <li><a target="_blank" href="https://www.instagram.com/mrchepedev/"><span
+                            class="fab fa-instagram"></span>Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/bhupinder-singh-359867165/" target="_blank"><span
+                            class="fab fa-linkedin"></span>Linkedin</a></li>
+                <li><a href="https://twitter.com/chepedev/" target="_blank"><span
+                            class="fab fa-twitter"></span>Twitter</a></li>
+                <li><a href="https://bhupindersingh.netlify.app/" target="_blank"><span
+                            class="fas fa-globe"></span>Website</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
     <script src="https://kit.fontawesome.com/116453b1e1.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
