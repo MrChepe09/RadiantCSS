@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../static/diamond.png">
+    <title>RadiantCSS | Modal</title>
+</head>
+<body>
+
+    <div class="sidebar sidebar-hide">
+        <!-- <div class="text">Side Menu</div> -->
+        <ul>
+            <li class="component-btn"><a class="active" href="#">Components
+                <span class="fas fa-caret-down"></span>
+                </a>
+                <ul class="sidebar-sub sidebar-sub-hide">
+                    <li><a href="./Avatars.html"><i class="fas fa-angle-right"></i> Avatar</a></li>
+                    <li><a href="./Alerts.html"><i class="fas fa-angle-right"></i> Alerts</a></li>
+                    <li><a href="./Badges.html"><i class="fas fa-angle-right"></i> Badges</a></li>
+                    <li><a href="./Buttons.html"><i class="fas fa-angle-right"></i> Buttons</a></li>
+                    <li><a href="./Card.html"><i class="fas fa-angle-right"></i> Cards</a></li>
+                    <li><a href="./Image.html"><i class="fas fa-angle-right"></i> Images</a></li>
+                    <li><a href="./Inputs.html"><i class="fas fa-angle-right"></i> Inputs</a></li>
+                    <li><a href="./Lists.html"><i class="fas fa-angle-right"></i> Lists</a></li>
+                    <li><a href="./Navbar.html"><i class="fas fa-angle-right"></i> Navbar</a></li>
+                    <li><a class="active" href="./Modal.html"><i class="fas fa-angle-right"></i> Modal</a></li>
+                </ul>
+            </li>
+            <li><a href="../utilities.html">Utilities</a></li>
+            <li><a href="../contribute.html">Contribute</a></li>
+        </ul>
+        <span class="fas fa-bars sidebar-btn"></span>
+    </div>
+    <!-- <div class="grid-container"> -->
+        <nav class="navbar-responsive">
+            <!-- <img src="./static/output-onlinepngtools.png"> -->
+            <div class="logo"><span class="logo-icon"><i class="far fa-gem"></i></span>Radiant<span class="text-secondary">CSS</span></div>
+            <label for="btn" class="icon">
+                <span class="fas fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li>
+                    <a href="../getStarted.html">Get Started</a>
+                </li>
+                <li><a href="../getInTouch.html">Get in Touch</a></li>
+            </ul>
+        </nav>
+
+    <div class="grid-container">
+
+        <div class="main-content">
+            <div class="main-head">
+                <h1 class="main-heading">Modal</h1>
+                <p class='main-description'>A modal is a dialog box/popup window that is displayed on top of the current page. Modal is generally used to display some important information to the user or extract some necessary information like EmailID.</p>
+            </div>
+
+            <div class="main-example">
+                <h2 class="ex-heading">Modal</h2>
+                <button class="btn btn-dark modal-btn">Click to open Modal</button>
+                <div class="modal-bg">
+                    <div class="modal">
+                        <h1 class="modal-heading">This is Modal Heading</h1>
+                        <div class="input-container">
+                            <label class="input-label">Username: </label>
+                            <input type="text" class="input" placeholder="Enter your Username">
+                        </div>
+                        <div class="input-container">
+                            <label class="input-label">Email: </label>
+                            <input type="text" class="input" placeholder="Enter your Email">
+                        </div>
+                        <button class="btn btn-dark">Submit</button>
+                        <span class="modal-close">X</span>
+                    </div>
+                </div>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=panda-syntax&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cbutton%2520class%253D%2522btn%2520btn-dark%2520modal-btn%2522%253EClick%2520to%2520open%2520Modal%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522modal-bg%2522%253E%250A%2509%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2509%253Ch1%2520class%253D%2522modal-heading%2522%253EThis%2520is%2520Modal%2520Heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Clabel%2520class%253D%2522input-label%2522%253EUsername%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520your%2520Username%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2509%2509%253Clabel%2520class%253D%2522input-label%2522%253EEmail%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520your%2520Email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-dark%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522modal-close%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="height: 586px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <footer>
+                <h1>Connect with Us</h1>
+                <ul class="footer-links">
+                    <li><a target="_blank" href="https://www.instagram.com/mrchepedev/"><span class="fab fa-instagram"></span>Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/bhupinder-singh-359867165/" target="_blank"><span class="fab fa-linkedin"></span>Linkedin</a></li>
+                    <li><a href="https://twitter.com/chepedev/" target="_blank"><span class="fab fa-twitter"></span>Twitter</a></li>
+                    <li><a href="https://bhupindersingh.netlify.app/" target="_blank"><span class="fas fa-globe"></span>Website</a></li>
+                </ul>
+            </footer>
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/116453b1e1.js" crossorigin="anonymous"></script>
+</body>
+</html>

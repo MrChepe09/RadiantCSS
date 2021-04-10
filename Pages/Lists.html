@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../static/diamond.png">
+    <title>RadiantCSS | Lists</title>
+</head>
+<body>
+
+    <div class="sidebar sidebar-hide">
+        <!-- <div class="text">Side Menu</div> -->
+        <ul>
+            <li class="component-btn"><a class="active" href="#">Components
+                <span class="fas fa-caret-down"></span>
+                </a>
+                <ul class="sidebar-sub sidebar-sub-hide">
+                    <li><a href="./Avatars.html"><i class="fas fa-angle-right"></i> Avatar</a></li>
+                    <li><a href="./Alerts.html"><i class="fas fa-angle-right"></i> Alerts</a></li>
+                    <li><a href="./Badges.html"><i class="fas fa-angle-right"></i> Badges</a></li>
+                    <li><a href="./Buttons.html"><i class="fas fa-angle-right"></i> Buttons</a></li>
+                    <li><a href="./Card.html"><i class="fas fa-angle-right"></i> Cards</a></li>
+                    <li><a href="./Image.html"><i class="fas fa-angle-right"></i> Images</a></li>
+                    <li><a href="./Inputs.html"><i class="fas fa-angle-right"></i> Inputs</a></li>
+                    <li><a class="active" href="./Lists.html"><i class="fas fa-angle-right"></i> Lists</a></li>
+                    <li><a href="./Navbar.html"><i class="fas fa-angle-right"></i> Navbar</a></li>
+                    <li><a href="./Modal.html"><i class="fas fa-angle-right"></i> Modal</a></li>
+                </ul>
+            </li>
+            <li><a href="../utilities.html">Utilities</a></li>
+            <li><a href="../contribute.html">Contribute</a></li>
+        </ul>
+        <span class="fas fa-bars sidebar-btn"></span>
+    </div>
+    <!-- <div class="grid-container"> -->
+        <nav class="navbar-responsive">
+            <!-- <img src="./static/output-onlinepngtools.png"> -->
+            <div class="logo"><span class="logo-icon"><i class="far fa-gem"></i></span>Radiant<span class="text-secondary">CSS</span></div>
+            <label for="btn" class="icon">
+                <span class="fas fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li>
+                    <a href="../getStarted.html">Get Started</a>
+                </li>
+                <li><a href="../getInTouch.html">Get in Touch</a></li>
+            </ul>
+        </nav>
+
+    <div class="grid-container">
+
+        <div class="main-content">
+            <div class="main-head">
+                <h1 class="main-heading">Lists</h1>
+                <p class='main-description'>HTML lists are used to present list of information in well formed and semantic way. There are three different types of list in HTML and each one has a specific purpose and meaning.</p>
+            </div>
+
+            <div class="main-example">
+                <h2 class="ex-heading">Normal List</h2>
+                <ul class="list-container">
+                    <li class="list-item">
+                        <p class="list-item-text">This is first Item</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-item-text">This is Second Item</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-item-text">This is Third Item</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-item-text">This is Fourth Item</p>
+                    </li>
+                </ul>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=panda-syntax&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cul%2520class%253D%2522list-container%2522%253E%250A%2509%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522list-item-text%2522%253EThis%2520is%2520first%2520Item%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522list-item-text%2522%253EThis%2520is%2520Second%2520Item%253C%252Fp%253E%250A%2509%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522list-item-text%2522%253EThis%2520is%2520Third%2520Item%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522list-item-text%2522%253EThis%2520is%2520Fourth%2520Item%253C%252Fp%253E%250A%2509%253C%252Fli%253E%250A%253C%252Ful%253E"
+                            style="height: 522px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="main-example">
+                <h2 class="ex-heading">Horizontal List</h2>
+                <ul class="list-container horizontal-list">
+                    <li class="list-item">
+                        <p class="list-item-text">Item1</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-item-text">Item2</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-item-text">Item2</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-item-text">Item4</p>
+                    </li>
+                </ul>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=panda-syntax&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cul%2520class%253D%2522list-container%2520horizontal-list%2522%253E%250A%2509%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522list-item-text%2522%253EItem1%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522list-item-text%2522%253EItem2%253C%252Fp%253E%250A%2509%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522list-item-text%2522%253EItem3%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522list-item-text%2522%253EItem4%253C%252Fp%253E%250A%2509%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="height: 522px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="main-example">
+                <h2 class="ex-heading">Stacked List</h2>
+                <ul class="list-container stack-list">
+                    <li class="list-item">
+                        <p class="list-item-text">This is first Item</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-item-text">This is Second Item</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-item-text">This is Third Item</p>
+                    </li>
+                    <li class="list-item">
+                        <p class="list-item-text">This is Fourth Item</p>
+                    </li>
+                </ul>
+                <div class="ex-code">
+                    <h2>Code</h2>
+                    <div class="iframe-code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28239%2C40%2C44%2C0%29&t=panda-syntax&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=186%25&si=false&es=2x&wm=true&code=%253Cul%2520class%253D%2522list-container%2520stack-list%2522%253E%250A%2509%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522list-item-text%2522%253EThis%2520is%2520first%2520Item%253C%252Fp%253E%250A%2509%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522list-item-text%2522%253EThis%2520is%2520Second%2520Item%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522list-item-text%2522%253EThis%2520is%2520Third%2520Item%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%2520class%253D%2522list-item-text%2522%253EThis%2520is%2520Fourth%2520Item%253C%252Fp%253E%250A%2509%253C%252Fli%253E%250A%253C%252Ful%253E"
+                            style="height: 522px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <footer>
+                <h1>Connect with Us</h1>
+                <ul class="footer-links">
+                    <li><a target="_blank" href="https://www.instagram.com/mrchepedev/"><span class="fab fa-instagram"></span>Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/bhupinder-singh-359867165/" target="_blank"><span class="fab fa-linkedin"></span>Linkedin</a></li>
+                    <li><a href="https://twitter.com/chepedev/" target="_blank"><span class="fab fa-twitter"></span>Twitter</a></li>
+                    <li><a href="https://bhupindersingh.netlify.app/" target="_blank"><span class="fas fa-globe"></span>Website</a></li>
+                </ul>
+            </footer>
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/116453b1e1.js" crossorigin="anonymous"></script>
+</body>
+</html>
